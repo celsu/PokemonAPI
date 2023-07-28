@@ -10,7 +10,5 @@ public class PokemonApiApplication {
 		SpringApplication.run(PokemonApiApplication.class, args);
 
 		System.out.println("TESTEEE");
-
 	}
-
 }
