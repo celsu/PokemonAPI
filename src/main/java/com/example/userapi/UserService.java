@@ -1,4 +1,4 @@
-package com.example.pokemonapi;
+package com.example.userapi;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -11,10 +11,6 @@ public class UserService {
 
     private final String API_URL = "https://jsonplaceholder.typicode.com/users";
 
-   /* public User[] getUsers() {
-        RestTemplate restTemplate = new RestTemplate();
-        return restTemplate.getForObject(API_URL, User[].class);
-    }*/
 
     public List<User> getUsers() {
         RestTemplate restTemplate = new RestTemplate();

@@ -1,4 +1,4 @@
-package com.example.pokemonapi;
+package com.example.userapi;
 
 public class Address {
     private String street;

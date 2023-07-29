@@ -1,4 +1,4 @@
-package com.example.pokemonapi;
+package com.example.userapi;
 
 public class User {
     private long id;

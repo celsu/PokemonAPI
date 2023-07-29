@@ -1,7 +1,5 @@
-package com.example.pokemonapi;
+package com.example.userapi;
 
-import com.example.pokemonapi.User;
-import com.example.pokemonapi.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
