@@ -43,6 +43,10 @@ public class UserController {
     @GetMapping("/users")
     public ResponseEntity<List<User>> getUsers() {
         List<User> users = userService.getUsers();
+        for (User user : users) {
+            System.out.println("Name: " + user.getName());
+            System.out.println("Address: " + user.getAddress().getCity());
+        }
         return ResponseEntity.ok(users);
     }
 }
