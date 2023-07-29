@@ -1,4 +1,4 @@
-package com.example.userapi;
+package com.api.userapi;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

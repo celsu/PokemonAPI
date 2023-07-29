@@ -1,4 +1,4 @@
-package com.example.userapi;
+package com.api.userapi;
 
 public class Address {
     private String street;

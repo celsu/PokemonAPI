@@ -1,4 +1,4 @@
-package com.example.userapi;
+package com.api.userapi;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.example.userapi;
+package com.api.userapi;
 
 public class Company {
     private String name;
