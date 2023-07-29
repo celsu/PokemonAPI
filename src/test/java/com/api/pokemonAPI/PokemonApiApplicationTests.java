@@ -1,4 +1,4 @@
-package com.api.PokemonAPI;
+package com.api.pokemonAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
