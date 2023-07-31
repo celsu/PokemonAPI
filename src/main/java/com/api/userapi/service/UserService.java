@@ -1,5 +1,6 @@
-package com.api.userapi;
+package com.api.userapi.service;
 
+import com.api.userapi.domain.User;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

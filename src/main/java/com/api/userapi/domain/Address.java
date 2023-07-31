@@ -1,4 +1,6 @@
-package com.api.userapi;
+package com.api.userapi.domain;
+
+import com.api.userapi.domain.Geo;
 
 public class Address {
     private String street;

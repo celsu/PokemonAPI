@@ -1,4 +1,4 @@
-package com.api.userapi;
+package com.api.userapi.domain;
 
 public class User {
     private long id;

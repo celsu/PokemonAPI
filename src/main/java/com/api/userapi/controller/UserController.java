@@ -1,5 +1,7 @@
-package com.api.userapi;
+package com.api.userapi.controller;
 
+import com.api.userapi.service.UserService;
+import com.api.userapi.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,10 +43,13 @@ public class UserController {
     @GetMapping("/users")
     public ResponseEntity<List<User>> getUsers() {
         List<User> users = userService.getUsers();
-        for (User user : users) {
+       /* for (User user : users) {
             System.out.println("Name: " + user.getName());
             System.out.println("Address: " + user.getAddress().getCity());
-        }
+        }*/
+
+        users.forEach((us) -> System.out.println("Name: " + us.getName()));
+
         return ResponseEntity.ok(users);
     }
 }
