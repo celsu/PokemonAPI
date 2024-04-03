@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.api</groupId>
-	<artifactId>UserAPI</artifactId>
+	<artifactId>PokemonAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PokemonAPI</name>
 	<description>Pokemon REST API</description>
